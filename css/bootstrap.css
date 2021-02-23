@@ -7179,7 +7179,7 @@ textarea.form-control-lg {
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #434343 !important;
 }
 
 .text-white {
@@ -10776,4 +10776,13 @@ textarea.form-control-lg {
 .image-checkbox-checked {
   border-radius: 20px;
   border-color: #434343;
+}
+
+.link-custom {
+  color: #434343;
+  text-decoration: none;
+}
+
+.link-custom:hover {
+  color: #434343;
 }
