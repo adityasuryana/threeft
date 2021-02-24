@@ -230,11 +230,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #434343;
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #434343;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -426,6 +426,7 @@ legend + * {
 }
 
 [type=search] {
+
   outline-offset: -2px;
   -webkit-appearance: textfield;
 }
@@ -7254,6 +7255,10 @@ textarea.form-control-lg {
   background-color: #434343 !important;
 }
 
+.bg-gray {
+  background-color: #EFEFEF !important;
+}
+
 .bg-body {
   background-color: #fff !important;
 }
@@ -7345,6 +7350,14 @@ textarea.form-control-lg {
 
 .rounded-3 {
   border-radius: 0.3rem !important;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+.rounded-10 {
+  border-radius: 10px !important;
 }
 
 .rounded-circle {
@@ -10785,4 +10798,15 @@ textarea.form-control-lg {
 
 .link-custom:hover {
   color: #434343;
+}
+
+.line {
+  border-left: 2px solid #434343;
+  height: 50px;
+}
+
+.search {
+  border-radius: 10px;
+  border: none;
+  width: 400px;
 }
