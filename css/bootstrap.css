@@ -5821,6 +5821,7 @@ textarea.form-control-lg {
   margin-right: 15%;
   margin-left: 15%;
   list-style: none;
+  border: none;
 }
 .carousel-indicators li {
   box-sizing: content-box;
@@ -5844,6 +5845,7 @@ textarea.form-control-lg {
   }
 }
 .carousel-indicators .active {
+  background-color: #434343;
   opacity: 1;
 }
 
@@ -10809,4 +10811,25 @@ textarea.form-control-lg {
   border-radius: 10px;
   border: none;
   width: 400px;
+}
+
+.banner {
+  min-height: 200px !important;
+}
+
+.indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+
+}
+
+.indicator:focus {
+  outline: none;
+}
+
+.indicator:hover {
+  background-color: #434343;
 }
