@@ -55,6 +55,11 @@
 }
 
 @font-face {
+    font-family: 'poppins-semibold';
+    src: url('../font/poppins-semibold.ttf');
+}
+
+@font-face {
     font-family: 'poppins-light';
     src: url('../font/poppins-light.ttf');
 }
@@ -4549,15 +4554,13 @@ textarea.form-control-lg {
 
 .badge {
   display: inline-block;
-  padding: 0.35em 0.65em;
   font-size: 0.75em;
-  font-weight: 700;
-  line-height: 1;
+  font-weight: 600;
   color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 8px;
 }
 .badge:empty {
   display: none;
@@ -7255,6 +7258,10 @@ textarea.form-control-lg {
 
 .bg-dark {
   background-color: #434343 !important;
+}
+
+.bg-yellow {
+  background-color: #FFF197 !important;
 }
 
 .bg-gray {
@@ -10818,8 +10825,8 @@ textarea.form-control-lg {
 }
 
 .indicator {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: none;
   text-decoration: none;
@@ -10833,3 +10840,59 @@ textarea.form-control-lg {
 .indicator:hover {
   background-color: #434343;
 }
+
+.heading {
+  font-size: 20px;
+  font-family: 'poppins-semibold';
+}
+
+.card-product {
+  position: relative;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-product .product-title {
+  color: #434343;
+  font-family: 'poppins-bold';
+  font-size: 18px;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.card-product .sale-price {
+  color: #434343;
+  font-family: 'poppins';
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.card-product .product-price {
+  color: #434343;
+  font-family: 'poppins';
+  font-size: 18px;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.flash-sale-slide.owl-carousel {
+  width: 130% !important; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .flash-sale-slide.owl-carousel {
+      width: 100% !important; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .flash-sale-slide.owl-carousel {
+      width: 100% !important; } }
+  @media only screen and (min-width: 1200px) {
+    .flash-sale-slide.owl-carousel {
+      width: 100% !important; } }

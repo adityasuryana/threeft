@@ -5,8 +5,15 @@
     <title>threeft | e-catalog</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+
+
+    <script type="text/javascript" src="owlcarousel/jquery.min.js"></script>
+    <script type="text/javascript" src="owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
+
   <body>
 
     <nav class="navbar navbar-expand-lg  navbar-light bg-light m-4 p-4 py-3 rounded-4">
@@ -47,7 +54,7 @@
       </div>
     </nav>
 
-    <div class="container-fluid ">
+    <div class="container-fluid">
     <div id="carouselExampleIndicators" class="carousel carousel-dark slide m-4" data-bs-ride="carousel" data-bs-touch="true">
       <div class="carousel-indicators pb-2">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="indicator active m-1" aria-current="true" aria-label="Slide 1"></button>
@@ -67,6 +74,107 @@
       </div>
     </div>
 </div>
+
+  <div class="container-fluid">
+    <div class="d-flex align-items-center justify-content-between m-5 mb-0">
+      <h6 class="heading">flash sale</h6> <a href="#" class="fw-bold">show all</a>
+    </div>
+
+<div class="row m-3">
+  <div class="columns">
+    <div class="owl-carousel owl-theme owl-loaded">
+      <div class="owl-stage-outer">
+        <div class="owl-stage">
+
+          <div class="owl-item">
+            <div class="card card-product" >
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-item">
+            <div class="card card-product">
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-item">
+            <div class="card card-product">
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-item">
+            <div class="card card-product">
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-item">
+            <div class="card card-product">
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+
     <footer class="text-center m-5 mb-4 text-lg-start" style="margin-top: 70px !important">
       <div>
         <a href="#" class="text-dark fw-bold p-3">tokopedia</a>
@@ -74,6 +182,24 @@
         <a href="#" class="text-dark fw-bold p-3">instagram</a>
       </div>
     </footer>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+</script>
+
 
   </body>
 </html>
