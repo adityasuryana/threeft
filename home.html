@@ -16,7 +16,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg  navbar-light bg-light m-4 p-4 py-3 rounded-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-4 p-4 py-3 rounded-4">
       <div class="container-fluid ">
         <a href="index.html" class="link-custom bg-white rounded-10 px-4 me-5"><h3 class="text-center mt-1">threeft</h3> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,11 +55,11 @@
     </nav>
 
     <div class="container-fluid">
-    <div id="carouselExampleIndicators" class="carousel carousel-dark slide m-4" data-bs-ride="carousel" data-bs-touch="true">
+    <div id="carousel" class="carousel carousel-dark slide m-4" data-bs-ride="carousel" data-bs-touch="true">
       <div class="carousel-indicators pb-2">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="indicator active m-1" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indicator m-1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indicator m-1" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="indicator active m-1" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="indicator m-1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class="indicator m-1" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -81,12 +81,10 @@
     </div>
 
 <div class="row m-3">
-  <div class="columns">
     <div class="owl-carousel owl-theme owl-loaded">
-      <div class="owl-stage-outer">
         <div class="owl-stage">
 
-          <div class="owl-item">
+          <div class="owl-item active">
             <div class="card card-product" >
               <div class="card-body">
                 <a href="#" style="text-decoration: none;">
@@ -102,8 +100,8 @@
             </div>
           </div>
 
-          <div class="owl-item">
-            <div class="card card-product">
+          <div class="owl-item active">
+            <div class="card card-product" >
               <div class="card-body">
                 <a href="#" style="text-decoration: none;">
                   <img src="img/thumbnail.png" alt="">
@@ -118,8 +116,8 @@
             </div>
           </div>
 
-          <div class="owl-item">
-            <div class="card card-product">
+          <div class="owl-item active">
+            <div class="card card-product" >
               <div class="card-body">
                 <a href="#" style="text-decoration: none;">
                   <img src="img/thumbnail.png" alt="">
@@ -134,8 +132,8 @@
             </div>
           </div>
 
-          <div class="owl-item">
-            <div class="card card-product">
+          <div class="owl-item active">
+            <div class="card card-product" >
               <div class="card-body">
                 <a href="#" style="text-decoration: none;">
                   <img src="img/thumbnail.png" alt="">
@@ -150,8 +148,24 @@
             </div>
           </div>
 
-          <div class="owl-item">
-            <div class="card card-product">
+          <div class="owl-item active">
+            <div class="card card-product" >
+              <div class="card-body">
+                <a href="#" style="text-decoration: none;">
+                  <img src="img/thumbnail.png" alt="">
+                  <span class="product-title ps-2 pt-2">t-shirt</span>
+                  <div class="d-flex ms-2">
+                    <span class="badge bg-danger p-2">50%</span>
+                    <span class="sale-price py-0 px-2">Rp 90.000</span>
+                  </div>
+                  <span class="product-price ps-2">Rp 45.000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-item active">
+            <div class="card card-product" >
               <div class="card-body">
                 <a href="#" style="text-decoration: none;">
                   <img src="img/thumbnail.png" alt="">
@@ -167,13 +181,208 @@
           </div>
 
         </div>
+    </div>
+
+  </div>
+
+  <div class="d-flex align-items-center justify-content-between m-5 mb-0">
+    <h6 class="heading">products</h6> <a href="#" class="fw-bold">show all</a>
+  </div>
+
+  <div class="row m-3">
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img class="img-responsive" src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
       </div>
 
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card card-product" >
+          <div class="card-body">
+            <a href="#" style="text-decoration: none;">
+              <img src="img/thumbnail.png" alt="">
+              <span class="product-title ps-2 pt-2">t-shirt</span>
+              <div class="d-flex ms-2">
+                <span class="badge bg-danger p-2">50%</span>
+                <span class="sale-price py-0 px-2">Rp 90.000</span>
+              </div>
+              <span class="product-price ps-2">Rp 45.000</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  </div>
-</div>
 
     <footer class="text-center m-5 mb-4 text-lg-start" style="margin-top: 70px !important">
       <div>
@@ -183,23 +392,22 @@
       </div>
     </footer>
 
-<script>
-$('.owl-carousel').owlCarousel({
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+    <script>
+    $('.owl-carousel').owlCarousel({
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:4
+            },
+            1000:{
+                items:7
+            }
         }
-    }
-});
-</script>
-
+    });
+    </script>
 
   </body>
 </html>

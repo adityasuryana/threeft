@@ -3949,23 +3949,23 @@ textarea.form-control-lg {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
-  }
+    }
 }
 .navbar-toggler:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; ;
   text-decoration: none;
 }
 .navbar-toggler:focus {
   text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem;
+  outline: none;
 }
 
 .navbar-toggler-icon {
@@ -5848,7 +5848,7 @@ textarea.form-control-lg {
   }
 }
 .carousel-indicators .active {
-  background-color: #434343;
+  background-color: #869791;
   opacity: 1;
 }
 
@@ -10838,7 +10838,7 @@ textarea.form-control-lg {
 }
 
 .indicator:hover {
-  background-color: #434343;
+  background-color: #869791;
 }
 
 .heading {
@@ -10884,15 +10884,3 @@ textarea.form-control-lg {
   white-space: nowrap;
   text-decoration: none !important;
 }
-
-.flash-sale-slide.owl-carousel {
-  width: 130% !important; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .flash-sale-slide.owl-carousel {
-      width: 100% !important; } }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .flash-sale-slide.owl-carousel {
-      width: 100% !important; } }
-  @media only screen and (min-width: 1200px) {
-    .flash-sale-slide.owl-carousel {
-      width: 100% !important; } }
