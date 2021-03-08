@@ -5849,7 +5849,7 @@ textarea.form-control-lg {
 }
 .carousel-indicators .active {
   background-color: #869791;
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .carousel-caption {
@@ -10865,6 +10865,12 @@ textarea.form-control-lg {
   text-decoration: none !important;
 }
 
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+}
 .card-product .sale-price {
   color: #434343;
   font-family: 'poppins';
