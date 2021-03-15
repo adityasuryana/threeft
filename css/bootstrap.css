@@ -10817,7 +10817,6 @@ textarea.form-control-lg {
 .search {
   border-radius: 10px;
   border: none;
-  width: 400px;
 }
 
 .banner {
@@ -10937,4 +10936,9 @@ textarea.form-control-lg {
 .categories__slider.owl-carousel .owl-nav button.owl-next {
 	left: auto;
 	right: -35px;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  border: none;
 }
