@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="splide/css/splide.min.css">
-    <!--<link rel="stylesheet" href="splide/css/splide-core.min.css"> -->
-
 
     <script type="text/javascript" src="splide/js/splide.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light m-4 p-4 py-3 rounded-4">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light m-4 p-4 py-3 rounded-4 shadow-cust">
       <div class="container-fluid ">
         <a href="index.html" class="link-custom bg-white rounded-10 px-4 me-5"><h3 class="text-center mt-1">threeft</h3> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +30,12 @@
               </a>
 
               <ul class="dropdown-menu shadow m-3 p-2" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item rounded-10 py-2" href="#">men</a></li>
-                <li><a class="dropdown-item rounded-10 py-2" href="#">women</a></li>
-                <li><a class="dropdown-item rounded-10 py-2" href="#">unisex</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">crewneck</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">jacket</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">jeans</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">polo</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">shirt</a></li>
+                <li><a class="dropdown-item rounded-10 py-2" href="#">shoe</a></li>
               </ul>
             </li>
           </ul>
@@ -44,7 +47,7 @@
 
           <ul class="navbar-nav m-2">
             <li class="nav-item d-flex">
-              <a class="nav-link link-custom fw-bold" aria-current="page" href="#">help</a>
+              <a class="nav-link link-custom fw-bold" aria-current="page" href="help.html">help</a>
             </li>
           </ul>
 
@@ -474,6 +477,18 @@
       },
     }
     } ).mount();
+    </script>
+
+    <script type="text/javascript">
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $("navbar").addClass("active");
+        }
+        else {
+            $("navbar").removeClass("active");
+        }
+    });
     </script>
 
   </body>

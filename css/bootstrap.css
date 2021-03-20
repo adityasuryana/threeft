@@ -3900,6 +3900,11 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.navbar .active{
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -4415,8 +4420,7 @@ textarea.form-control-lg {
 }
 
 .accordion-collapse {
-  border: solid rgba(0, 0, 0, 0.125);
-  border-width: 0 1px;
+  
 }
 
 .accordion-body {
@@ -6062,6 +6066,7 @@ textarea.form-control-lg {
   position: sticky;
   top: 0;
   z-index: 1020;
+
 }
 
 @media (min-width: 576px) {
@@ -6243,6 +6248,10 @@ textarea.form-control-lg {
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-cust {
+  box-shadow : 0 0.5rem 1rem rgb(0 0 0 / 5%);
 }
 
 .shadow-none {
@@ -10941,4 +10950,52 @@ textarea.form-control-lg {
 .dropdown-menu {
   border-radius: 10px;
   border: none;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
 }
